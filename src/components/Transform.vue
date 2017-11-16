@@ -5,10 +5,10 @@
     <form id="transf" class="well form-inline" v-on:submit="formSubmit">
       <input class="form-control" type="text" v-model="text" placeholder="输入要翻译的内容">
       <select class="form-control" name="" id="" v-model="lang">
-        <option value="en">english</option>
-        <option value="ru">Russian</option>
-        <option value="ko">Korean</option>
-        <option value="fr">法语</option>
+        <option value="en">英语 English</option>
+        <option value="ru">俄罗斯语 Russian</option>
+        <option value="ko">韩语 Korean</option>
+        <option value="fr">法语 French</option>
       </select>
       <input class="btn btn-primary" type="submit" value="翻译">
     </form>
